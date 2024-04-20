@@ -1,0 +1,98 @@
+body{
+    background-color:white;
+    color: black;
+   
+}
+.dark-mode{ /*dark theme*/
+    color:#EEEEEE;
+    background-color:#1d2a35;
+}
+
+#readingText{
+   display:flex;
+   justify-content:center;
+   
+}
+#text1{
+    width:75%;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#timer{
+    margin:auto;
+    background-color:orange;
+    width:15%;
+    border-radius:15%;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#time{
+    
+    font-size: xx-large;
+}
+#input{
+    display:flex;
+    justify-content: center;
+}
+#input textarea{
+    width:900px;
+    height:120px;
+    font-size: 20px;
+}
+#info{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+#info div{
+    font-size:30px;
+}
+#speed{
+    text-align: center;
+    font-size: 22px;
+}
+#theme{
+    position:fixed;
+    top:600px;
+    left:70px;
+
+}
+#logo{
+    position:fixed;
+    top:20px;
+    left:20px;
+}
+textarea{
+    resize:none;
+}
+h1{     /*website name*/
+    color:orange;
+    font-size: 50px;
+    margin-top:10px;
+}
+
+
+    
+#theme2{
+    border-color: #E4572E;
+    border-radius:20%;
+    background-color:aliceblue;
+}
+#reset{
+    border-color: #E4572E;
+    background-color:burlywood;
+    width:150px;
+}
+
+.jersey-10-regular {        /* font*/
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+  }

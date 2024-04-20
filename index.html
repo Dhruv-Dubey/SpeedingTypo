@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedyTypo</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">     <!--google fonts link-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>   <!--icons/logo link-->
+
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sedan:ital@0;1&display=swap" rel="stylesheet"></head>
+<body><!--logo-->
+    <img id="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAb5JREFUaEPtmmFOg0AQhd82HqQ9ifUYhpjoSdSTaGIajyGeRE7CKgqUhcXOAul2ltd/pQPM2292ZspgsLKPWZleUHDqxEmYhBNbAYZ0YkAHckiYhBNbgdGQtgfcA9iq1FsixxUKc4ui7/9AcC30RaXQodMPJsNr97AjODGxjc5nk+Gp+dIKtu/YosRXImRdGRvsmvA+Cn7DHht8JCkYaEP7KPjwi/3xpGCDHBafjp3BNSz2vWNx7PwCZggGnD1RXd/6FyuWnU9y60s4YQomYW85OGPoLxzSOpPWrD18MpFfoAEFj5WWC4Q1ySUSlhNeYdKK1UFJ77twWWKnxU6LnVa7qc7xN9JftViW5GVpUt2PfhIJk3BQEPq6r6ALCIx9CU9wWm2yeEgPuiC5LzLLkedmspM7zdKUZ1r/tm5SD0LtKDhsxRjS87K00qRVjUdTmRq6AV/ixtwhrw72p4fVME3nTHh8Txcmw675uS9YNl8KSxixrf3j0sarekZcDdX0k+6EspdwF4X9G5+6E8HYrOT3L358z0WvPMivqdOS72np5Cb3moTla6XTkoR1cpN7TcLytdJpScI6ucm9Xh3hb4SsbkxuxCGdAAAAAElFTkSuQmCC"/>    
+    <h1 align="center" id="Heading" class="jersey-10-regular ">Speeding Typo</h1><!--website name-->
+    <div id="readingText">  <!--text to read(changes every time)-->
+        <p id="text1"></p>
+    </div>
+    <div id="timer">    <!--timer of 30 seconds-->
+        <div id="time">Time Left: <span></span>s</div>
+    </div>
+    <br>
+    <br>
+    <div id="input">    <!--input area-->
+        <textarea class="text" placeholder="Timer starts when you start typing!"></textarea> 
+    </div>
+<br>
+<br>
+    <div id="info"> <!--result-->
+        <div id="acc">Accuracy:<span>--</span></div>
+        <div id="wpm">WPM:<span>--</span></div>
+    </div>
+    <br>
+    <div id="speed">
+        <button onclick="reset()" id="reset">RESTART</button><!--restart button-->
+
+    </div>
+    <div id="theme">
+        <button onclick="modeChange()" id="theme2">Light/Dark</button><!--theme change button-->
+    </div>
+    <div id="logo">
+        <img src="">
+    </div>
+    <!--theme change script-->
+    <script>
+        function modeChange(){
+        var element=document.body;
+        element.classList.toggle("dark-mode");
+    }
+    
+    </script>
+    <script src="myscripts.js"></script>
+</body>
+</html>
